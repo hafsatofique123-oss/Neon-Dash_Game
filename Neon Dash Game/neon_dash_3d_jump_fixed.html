@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#071426">
+<title>NEON DASH — 3D Runner</title>
+</head>
+<body>
+<div id="ui">
+<header>
+ <div class="statbar">
+  <div class="stat"><small>DISTANCE</small><b id="distance">0 m</b></div>
+  <div class="stat"><small>COINS</small><b id="coins">0</b></div>
+  <div class="stat"><small>BEST</small><b id="best">0 m</b></div>
+ </div>
+ <div class="actions">
+  <button class="iconbtn" id="sound" title="Toggle sound">♫</button>
+  <button class="iconbtn" id="pause" title="Pause" disabled>Ⅱ</button>
+ </div>
+</header>
+<div id="toast">COIN +1</div>
+<div id="bottom">
+ <div class="pad"><button class="control" id="left" aria-label="Move left">‹</button><button class="control" id="right" aria-label="Move right">›</button></div>
+ <div id="tip">← → CHANGE LANE &nbsp; • &nbsp; SPACE / ↑ JUMP</div>
+ <button class="control jump" id="jump" aria-label="Jump">↑</button>
+</div>
+<div id="overlay">
+ <div class="panel">
+  <div class="kicker">A NEON CITY RUNNER</div>
+  <div class="logo">NEON <span>DASH</span></div>
+  <p id="message">Sprint through a glowing 3D city. Switch lanes, leap over road barriers and collect coins. How far can you run?</p>
+  <button class="primary" id="start">START RUN</button>
+  <p class="note">Computer: ← → + SPACE &nbsp; | &nbsp; Phone: on-screen controls</p>
+ </div>
+</div>
+</div>
+
+</body></html>
